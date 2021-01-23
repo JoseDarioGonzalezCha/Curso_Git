@@ -1,0 +1,148 @@
+    1  ls
+    2  ls-a
+    3  la -a
+    4  ls -a
+    5  ls ..
+    6  pwd
+    7  ls
+    8  cd desktop/
+    9  pwd
+   10  cd ..
+   11  cd ~
+   12  cd D
+   13  cd Desktop/
+   14  mkdir comandos
+   15  ls
+   16  cd comandos
+   17  mkdir pasta nova
+   18  ls
+   19  mkdir 'pasta nova'
+   20  ls
+   21  mkdir -p new/old
+   22  ls
+   23  ls new
+   24  rm -r nova pasta
+   25  rm -r new
+   26  ls
+   27  mv 'pasta nova' pasta_nova
+   28  ls
+   29  mkdir new
+   30  ls
+   31  mv new pasta_nova
+   32  ls
+   33  cd ..
+   34  cd comandos/
+   35  touch arquivo.txt
+   36  ls
+   37  cp arquivo.txt pasta_nova/
+   38  ls
+   39  ls pasta_nova
+   40  echo 'Mensagem'
+   41  echo 'Mensagem' > comando.txt
+   42  cat comando.txt
+   43  cat
+   44  cat > comando.txt
+   45  cat >> comando.txt
+   46  cat comando.txt
+   47  cat > comando.txt
+   48  help cd
+   49  history
+   50  clear
+   51  git config --global user.name 'Dario González'
+   52  git config --global user.email 'jdariogonzalez.2020@gmail.com'
+   53  git config user.name
+   54  cd Desktop/
+   55  mkdir curso_git
+   56  cd curso_git/
+   57  git config user.name
+   58  git init
+   59  git status
+   60  echo '#Aprendendo a usar o git' > readme.md
+   61  git status
+   62  git add readme.md
+   63  git status
+   64  git commit -m 'commit inicial'
+   65  git status
+   66  echo '##aula 1' >> readme.md
+   67  git status
+   68  echo 'dario' > participantes.txt
+   69  git status
+   70  git add .
+   71  git status
+   72  git restore --staged paticipantes.txt
+   73  git restore --staged participantes.txt
+   74  git status
+   75  git add participantes.txt
+   76  git status
+   77  git restore --staged .
+   78  git status
+   79  git commit -am 'Alteraçao no readme'
+   80  git status
+   81  git add participantes.txt
+   82  git status
+   83  git commit -m 'Adicionado participantes.txt'
+   84  history > Aula_3.txt
+   85  git status
+   86  git add .
+   87  git commit -m 'Comandos da aula 3'
+   88  git config --list
+   89  git config <key>:
+   90  git help <verb>
+   91  git config
+   92  git help
+   93  history
+   94  clear
+   95  clear
+   96  git log
+   97  clear
+   98  history
+   99  clear
+  100  git status
+  101  clear
+  102  git config -- global user.name 'Dario González'
+  103  clear
+  104  config --global user.name 'Dario González'
+  105  clear
+  106  git config user name
+  107  clear
+  108  clear
+  109  ls
+  110  clear
+  111  git config --global user.name 'Dario Gonzalez'
+  112  git config --global user.email 'jdariogonzalez.2020@gmail.co
+git config --global user.email 'jdariogonzalez.2020@gmail.com'
+
+  113  git config --global user.email 'jdariogonzalez.2020@gmail.com'
+  114  git config user.name
+  115  git config user.email
+  116  cd desktop
+  117  mkdir Curso_Git
+  118  cd Curso_Git
+  119  git config user.name
+  120  git init
+  121  git status
+  122  echo '#Aprendendo a usar um arquivo o Git' > readme.md
+  123  git status
+  124  git add readme.md
+  125  git status
+  126  git commit -m 'Commit inicial'
+  127  git status
+  128  echo '##Aula 1' >> readme.md
+  129  git status
+  130  echo 'Dario' > participantes.txt
+  131  git status
+  132  git add .
+  133  git status
+  134  git restore --staged participantes.txt
+  135  git status
+  136  git add participantes.txt
+  137  git status
+  138  git restore --staged .
+  139  git status
+  140  git commit -am 'Ateraçao no readme'
+  141  git status
+  142  git add participantes.txt
+  143  git status
+  144  git commit -m 'Adicionando participantes.txt'
+  145  git status
+  146  history > Aula_3.txt
